@@ -12,6 +12,11 @@
 	margin-top: 5%;
 	margin-bottom: 5%;
 }
+.me:hover{
+	height: 180px;
+	width: 180px;
+	border-radius: 50%;
+}
 .mb-4{
 	margin-bottom: 1%;
 }
@@ -35,41 +40,38 @@
 }
 */
 #tags1{
-	margin-bottom: 0.1%;
 	border-style: solid;
 	border-color: #ffffff;
 	border-width: 1%;
 }
 #tags2{
-	margin-bottom: 0.1%;
 	border-style: solid;
 	border-color: #ffffff;
 	border-width: 1%;
 }
 #tags3{
-	margin-bottom: 0.1%;
 	border-style: solid;
 	border-color: #ffffff;
 	border-width: 1%;
 }
 #tags4{
-	margin-bottom: 0.2%;
 	border-style: solid;
 	border-color: #ffffff;
 	border-width: 1%;
 }
 #tags5{
-	margin-bottom: 0.2%;
 	border-style: solid;
 	border-color: #ffffff;
 	border-width: 1%;
 }
 #tags6{
-	margin-bottom: 0.2%;
 	border-style: solid;
 	border-color: #ffffff;
 	border-width: 1%;
 }
 #port{
 	margin-bottom: 2%;
+}
+#gthb_btn{
+	margin-top: 7%;
 }
