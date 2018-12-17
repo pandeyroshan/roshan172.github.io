@@ -1,0 +1,225 @@
+body{
+  background-image: url(/home/roshan/Downloads/CSI/internet-3400789_1280.jpg);
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.CTT{
+  width: 100%;
+  border-radius: 30px;
+  margin-top: 1%;
+  padding-top: 0.7%;
+  padding-bottom: 0.7%;
+  background-color: #5DBCD2;
+  color: #FFFFFF;
+  font-size: 130%;
+  border-color: #5DBCD2;
+  margin-bottom: 2%;
+  }
+.card1{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 400px; 
+  width: 300px;
+  margin-left: 40%;
+  margin-top: 8%;
+  text-align: center;
+  font-family: arial;
+  float: left;
+  margin-right: 50px;
+  margin-bottom: 40px;
+  border-style: solid;
+  border-color: #000000;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+
+.card2{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 400px; 
+  width: 300px;
+  margin-left: 200px;
+  text-align: center;
+  font-family: arial;
+  float: left;
+  margin-right: 300px;
+  margin-bottom: 40px;
+  border-style: solid;
+  border-color: #000000;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+.card3{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 400px; 
+  width: 300px;
+  margin-left: 20px;
+  text-align: center;
+  font-family: arial;
+  float: left; 
+  margin-bottom: 40px;
+  border-style: solid;
+  border-color: #000000;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+
+.card4{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 400px; 
+  width: 280px;
+  margin-left: 45px;
+  text-align: center;
+  font-family: arial;
+  float: left; 
+  margin-bottom: 40px;
+  border-style: solid;
+  border-color: #000000;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+.card5{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 400px; 
+  width: 280px;
+  margin-left: 20px;
+  text-align: center;
+  font-family: arial;
+  float: left; 
+  margin-bottom: 40px;
+  border-style: solid;
+  border-color: #000000;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+.card6{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ height: 400px; 
+  width: 280px;
+  margin-left: 20px;
+  text-align: center;
+  font-family: arial;
+  float: left; 
+  margin-bottom: 40px;
+  border-style: solid;
+  border-color: #000000;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+.card7{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 400px; 
+  width: 280px;
+  margin-left: 20px;
+  text-align: center;
+  font-family: arial;
+  float: left; 
+  margin-bottom: 40px;
+  border-style: solid;
+  border-color: #000000;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+.card8{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 400px; 
+  width: 280px;
+  margin-left: 45px;
+  text-align: center;
+  font-family: arial;
+  float: left; 
+  margin-bottom: 40px;
+  border-style: solid;
+  border-color: #000000;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+
+.card9{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 400px; 
+  width: 280px;
+  margin-left: 20px;
+  text-align: center;
+  font-family: arial;
+  float: left; 
+  margin-bottom: 40px;
+  border-style: solid;
+  border-color: #000000;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+
+.card10{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 400px; 
+  width: 280px;
+  margin-left: 20px;
+  text-align: center;
+  font-family: arial;
+  float: left; 
+  margin-bottom: 40px;
+  border-style: solid;
+  border-color: #000000;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+
+.card11{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 400px; 
+  width: 280px;
+  margin-left: 20px;
+  text-align: center;
+  font-family: arial;
+  float: left; 
+  margin-bottom: 40px;
+  border-style: solid;
+  border-color: #000000;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+
+.title {
+  color: grey;
+  font-size: 20px;
+}
+
+.NoComn{
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  margin-top: 50px; 
+}
+
+.Comn{
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  margin-top: 20px; 
+}
+
+a {
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}

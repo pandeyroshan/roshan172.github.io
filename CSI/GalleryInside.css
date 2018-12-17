@@ -1,0 +1,97 @@
+body{
+  background-image: url(/home/roshan/Downloads/CSI/internet-3400789_1280.jpg);
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h2{
+  font-size: 250%;
+  color: #FFFFFF;
+  margin-left: 42%;
+  margin-top: 2%;
+}
+.button {
+  border-radius: 30px;
+  background-color: #5DBCD2;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 1.2%;
+  width: 25%;
+  transition: all 0.5s;
+  cursor: pointer;
+  /*margin: 5px;*/
+  margin-bottom: 2%;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.2s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#GB1{
+	margin-left: 22%;
+}
+#GB2{
+	margin-left: 6%;
+}
+#GB3{
+	margin-left: 38%;
+}
+#GB4{
+	margin-left: 22%;
+}
+#GB5{
+	margin-left: 9.5%;
+}
+#GB6{
+	margin-left: 38%;
+}
+#GB7{
+	margin-left: 22%;
+}
+#GB8{
+	margin-left: 5%;
+	margin-left: 6%;
+}
+#GB9{
+	margin-left: 38%;
+}
+#GB10{
+	margin-left: 22%;
+}
+#GB11{
+	margin-left: 9.5%;
+}
+#GB12{
+	margin-left: 38%;
+}
+#GB13{
+	margin-left: 22%;
+}
+#GB14{
+	margin-left: 5%;
+	margin-left: 6%;
+}

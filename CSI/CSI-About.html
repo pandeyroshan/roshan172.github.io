@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSI-About US</title>
+    <link rel="stylesheet" type="text/css" href="CSI-About.css">
+</head>
+<body>
+
+<div class="header">
+  <h2>ABOUT US</h2>
+  <img src="/home/roshan/Downloads/CSI/csi-logo.png" class="ABOUT1">
+  <h4>COMPUTER SOCIETY OF INDIA | JUET GUNA</h4>
+  <p>Computer Society of India has accorded to establish student branch at Jaypee University of Engineering and Technology and student branch of CSI is functioning here at JUET from 2006 onwards with student branch code of 0072. Various technical and literary events are being organized in every semester.</p>
+</div>
+
+<button onclick="location.href='file:///home/roshan/Downloads/CSI/FacultyMentor.html';" class="Tom" id="AB1">FACULTY MENTOR</button><br>
+<button onclick="location.href='file:///home/roshan/Downloads/CSI/CoreTeam.html';" class="Tom" id="AB2">CORE TEAM</button>
+<button onclick="location.href='#';" class="Tom" id="AB3">CO-ORDINATOR</button>
+<button onclick="topFunction()" id="AboutmyBtn" title="Go to top">UP</button> 
+<br>
+
+<script>
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() 
+    {
+        if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
+              document.getElementById("AboutmyBtn").style.display = "block";}
+          else {
+              document.getElementById("AboutmyBtn").style.display = "none";
+            }
+    }
+        function topFunction() 
+        {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+  </script>
+
+</body>
+</html>

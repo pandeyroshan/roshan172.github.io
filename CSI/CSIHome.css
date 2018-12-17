@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Exo');
+body{
+  background-image: url(internet-3400789_1280.jpg);
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Exo', sans-serif;
+}
+.img1:hover {
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.p1{
+	font-size: 300%;
+	margin-left: 10.5%;
+	letter-spacing: 15px;
+	margin-top: 5%;
+	color: #FFFFFF;
+	margin-bottom: 0.5%;
+	font-family: 'Exo', sans-serif;
+}
+.img1{
+	height: 35%;
+	width: 19%;
+	margin-left: 40.4%;
+    margin-top: 6.2%;
+    opacity: 0.9;
+}
+.p2{
+	font-size: 200%;	
+	color: #FFFFFF;
+	letter-spacing: 10px;
+	margin-left: 27%;
+	margin-bottom: 5%;
+	font-family: 'Exo', sans-serif;
+}
+#b1{
+	letter-spacing: 5px;
+	margin-left: 25%;
+	margin-right: 10%;
+	margin-bottom: 4%;
+	width: 20%;
+	font-size: 100%;
+	border-radius: 30px;
+	border: solid; 
+	border-color: #5DBCD2;
+	background-color: #5DBCD2;
+	padding-top: 0.7%;
+	padding-bottom: 0.7%;
+	font-family: 'Exo', sans-serif;
+}
+#b2{
+	letter-spacing: 5px;
+	margin-bottom: 4%;
+	width: 20%;
+	font-size: 100%;
+	border-radius: 30px;
+	border: solid; 
+	border-color: #5DBCD2;
+	background-color: #5DBCD2;
+	padding-top: 0.7%;
+	padding-bottom: 0.7%;
+	font-family: 'Exo', sans-serif;
+}
+#b3{
+	letter-spacing: 5px;
+	margin-left: 12%;
+	margin-right: 8%;
+	margin-bottom: 4%;
+	width: 20%;
+	font-size: 100%;
+	border-radius: 30px;
+	border: solid; 
+	border-color: #5DBCD2;
+	background-color: #5DBCD2;
+	padding-top: 0.7%;
+	padding-bottom: 0.7%;
+	font-family: 'Exo', sans-serif;
+}
+#b4{
+	letter-spacing: 5px;
+	width: 20%;
+	margin-bottom: 4%;
+	margin-right: 8%;
+	font-size: 100%;
+	border-radius: 30px;
+	border: solid; 
+	border-color: #5DBCD2;
+	background-color: #5DBCD2;
+	padding-top: 0.7%;
+	padding-bottom: 0.7%;
+	font-family: 'Exo', sans-serif;
+}
+#b5{
+	letter-spacing: 5px;
+	width: 20%;
+	margin-bottom: 4%;
+	font-size: 100%;
+	border-radius: 30px;
+	border: solid; 
+	border-color: #5DBCD2;
+	background-color: #5DBCD2;
+	padding-top: 0.7%;
+	padding-bottom: 0.7%;
+	font-family: 'Exo', sans-serif;
+}
+#b6{
+	letter-spacing: 5px;
+	width: 20%;
+	margin-left: 25%;
+	font-size: 100%;
+	border-radius: 30px;
+	border: solid; 
+	border-color: #5DBCD2;
+	background-color: #5DBCD2;
+	padding-top: 0.7%;
+	margin-right: 10%;
+	padding-bottom: 0.7%;
+	margin-bottom: 0.5%;
+	font-family: 'Exo', sans-serif;
+}
+#b7{
+	letter-spacing: 5px;
+	width: 20%;
+	font-size: 100%;
+	border-radius: 20px;
+	border: solid; 
+	border-color: #5DBCD2;
+	background-color: #5DBCD2;
+	padding-top: 0.7%;
+	padding-bottom: 0.7%;
+	margin-bottom: 0.5%;
+	font-family: 'Exo', sans-serif;
+}
+#b1:hover{
+	border-color: #FFFFFF;
+	background-color: #FFFFFF;
+	animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+#b2:hover{
+	border-color: #FFFFFF;
+	background-color: #FFFFFF;	
+	animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+#b3:hover{
+	border-color: #FFFFFF;
+	background-color: #FFFFFF;
+	animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+#b4:hover{
+	border-color: #FFFFFF;
+	background-color: #FFFFFF;
+	animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+#b5:hover{
+	border-color: #FFFFFF;
+	background-color: #FFFFFF;
+	animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+#b6:hover{
+	border-color: #FFFFFF;
+	background-color: #FFFFFF;
+	animation: shake 0.5s;
+    animation-iteration-count: infinite;	
+}
+#b7:hover{
+	border-color: #FFFFFF;
+	background-color: #FFFFFF;
+	animation: shake 0.5s;
+    animation-iteration-count: infinite;
+	
+}
+#HomeMyBtn{
+	border: solid;
+	border-radius: 30px;
+	height: 8%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	margin-top: 5%;
+	width: 3%;
+	background-color: #5DBCD2;
+	border-color: #5DBCD2;
+	margin-left: 95%;
+	color: #000000;
+}
+#HomeMyBtn:hover{
+	background-color: #FFFFFF;
+	border-color: #FFFFFF;
+	animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}

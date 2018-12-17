@@ -1,0 +1,114 @@
+body{
+  background-image: url(/home/roshan/Downloads/CSI/internet-3400789_1280.jpg);
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.FM1{
+  width: 100%;
+  border-radius: 30px;
+  margin-top: 1%;
+  padding-top: 0.7%;
+  padding-bottom: 0.7%;
+  background-color: #5DBCD2;
+  color: #FFFFFF;
+  font-size: 130%;
+  border-color: #5DBCD2;
+  margin-bottom: 8%;
+}
+.card1{
+  width: 23%;
+  height: 450px;
+  margin-left: 15%;
+  text-align: center;
+  font-family: arial;
+  float: left;
+  margin-right: 10%;
+  border-style: solid;
+  border-color: #000000;
+  border-radius: 30px;
+  background-color: #FFFFFF;
+}
+.Shishir{
+  height: 30%;
+  width: 50%;
+  border-radius: 50%;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  border: solid;
+  border-color: #5DBCD2; 
+}
+.Amit{
+  height: 30%;
+  width: 50%;
+  border-radius: 50%;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  border: solid;
+  border-color: #5DBCD2;
+}
+
+.card2{
+  width: 24%;
+  height: 450px;
+  margin-left: 15%;
+  text-align: center;
+  font-family: arial;
+  float: left;
+  margin-right: 10%;
+  border-style: solid;
+  border-color: #000000;
+  border-radius: 30px;
+  background-color: #FFFFFF;
+  float: left;
+}
+.SCBtn{
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 2.5%;
+  color: white;
+  background-color: #5DBCD2;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 150%;
+  margin-top: 17%;
+  background-color: #000000;
+}
+.ACBtn{
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 2.5%;
+  color: white;
+  background-color: #5DBCD2;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 150%;
+  margin-top: 17%;
+  background-color: #000000;
+}
+
+a {
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+}
+
+.SCBtn:hover
+{
+  background-color: #5DBCD2;
+  color: #000000;
+  border-color: #7499FC;
+}
+.ACBtn:hover
+{
+  background-color: #5DBCD2;
+  color: #000000;
+  border-color: #7499FC;+
+}
+

@@ -1,0 +1,47 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>CSI-HOME</title>
+	<link rel="stylesheet" type="text/css" href="CSIHome.css">
+<style>
+body {
+    background-color: #5DBCD2;
+}
+</style>
+</head>
+<body>
+	<p class="p1" >COMPUTER SOCIETY OF INDIA</p>
+	<a href="http://csi-india.org/"><img src="csi-logo.png" class="img1"></a>
+	<p class="p2" >JUET STUDENT CHAPTER</p>
+	<button onclick="location.href='file:///home/roshan/Downloads/CSI/CSI-About.html';" class="Hot" id="b1">ABOUT</button>
+	<button onclick="location.href='#';" class="Hot" id="b2" >EVENTS</button>
+	<br>
+	<button onclick="location.href='#';"class="Hot" id="b3">CONTACTS</button>
+	<button onclick="location.href='http://csi-india.org/';" class="Hot" id="b4">CSI INDIA</button>
+	<button onclick="location.href='file:///home/roshan/Downloads/CSI/CoreTeam.html';" class="Hot" id="b5">OUR TEAM</button>
+	<br>
+	<button onclick="location.href='file:///home/roshan/Downloads/CSI/GalleryInside.html';" class="Hot" id="b6">GALLERY</button>
+	<button onclick="location.href='#';" class="Hot" id="b7">ABOUT DEVELOPER</button>
+	<button onclick="topFunction()" class="Hot" id="HomeMyBtn" >UP</button><br>
+	
+	<script>
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() 
+		{
+    		if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
+        			document.getElementById("HomeMyBtn").style.display = "block";}
+        	else {
+        			document.getElementById("HomeMyBtn").style.display = "none";
+    				}
+		}
+        function topFunction() 
+        {
+    		document.body.scrollTop = 0;
+    		document.documentElement.scrollTop = 0;
+		}
+
+    </script>
+
+</body>
+</html>
