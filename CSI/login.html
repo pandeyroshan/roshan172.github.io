@@ -3,35 +3,26 @@
 <head>
 	<title>HOME</title>
 	<link rel="stylesheet" type="text/css" href="login.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	<div class="container">
-		<img src="pic.png" class="logo">
-		<input type="text" name="uname" class="entry" id="uname" placeholder="Username">
-		<input type="password" name="pwd" class="entry" id="pwd" placeholder="Password">
-		<div class="cb">
-			<input type="checkbox" name="" required>Remember Me.
+	<form method="post" action="https://webkiosk.juet.ac.in/CommonFiles/UserAction.jsp">
+		<div class="container">
+			<img src="logo.png" class="logo">
+
+			<select size="1" name="InstCode" style="display:none;">
+      		  <option value="JUET" selected="">JUET</option>
+    		</select>
+
+    		<select size="1" name="UserType" id="UserType" style="display:none;">
+    		  <option value="S">Student</option>
+    		</select>
+
+			<input type="text" name="MemberCode" class="entry" id="MemberCode" placeholder="Enrollment No">
+			<input type="data" name="DATE1" class="entry" id="DATE1" placeholder="Date of Birth">
+			<input type="password" name="Password" class="entry" id="Password" placeholder="Password">
+
+			<button type="submit" class="signInButton">SIGN IN</button>
 		</div>
-		<button type="submit" class="signInButton" onclick="func();">SIGN IN</button>
-	</div>
-
-	<script>
-		var utext;
-		var ptext;
-		function func(){
-			utext=document.getElementById('uname').value;
-			ptext=document.getElementById('pwd').value;
-			if(utext=='roshan172' && ptext=='blue_whale')
-			{
-				alert("Successfully Logged In.");
-			}
-			else
-			{
-				alert("Wrong Credentials.")
-			}
-		}
-
-	</script>
+	</form>
 </body>
 </html>
