@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 .container{
-	height: 480px;
-	width: 350px;
+	width: 27%;
 	background-color: #000000;
 	opacity: 0.9;
 	border-radius: 30px;
-	margin-left: 38%;
+	margin-left: 37%;
 	margin-top: 10%;
 }
 .logo{
@@ -25,33 +24,32 @@
 	padding-left: 20px;
 	outline: none;
 }
-#uname{
-	margin-top: 80px;
+#MemberCode{
+	margin-top: 20%;
 	letter-spacing: 3px;
 }
-#pwd{
-	margin-top: 40px;
+#Password{
+	margin-top: 5%;
 	letter-spacing: 3px;
+	margin-bottom: 10%;
 }
-#uname:hover{
+#MemberCode:hover{
 	border-color: #386895;
 }
-#pwd:hover{
+#Password:hover{
 	border-color: #386895;
 }
-.cb{
-	margin-top: 30px;
-	margin-left: 80px;
-	font-size: 20px;
-	font-family: 'Montserrat', sans-serif;
-	color: #ffffff;
+#DATE1{
+	margin-top: 5%;
+}
+#DATE1:hover{
+	border-color: #386895;
 }
 .signInButton{
 	height: 50px;
 	width: 300px;
 	background-color: #386895;
 	margin-left: 25px;
-	margin-top: 30px;
 	font-size: 20px;
 	font-family: 'Montserrat', sans-serif;
 	opacity: 1;
@@ -59,6 +57,7 @@
 	border-style: solid;
 	border-color: #386895;
 	color: #ffffff;
+	margin-bottom: 10%;
 }
 .signInButton:hover{
 	background-color: #273B7A;
