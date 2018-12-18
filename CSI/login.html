@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HOME</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+	<div class="container">
+		<img src="pic.png" class="logo">
+		<input type="text" name="uname" class="entry" id="uname" placeholder="Username">
+		<input type="password" name="pwd" class="entry" id="pwd" placeholder="Password">
+		<div class="cb">
+			<input type="checkbox" name="" required>Remember Me.
+		</div>
+		<button type="submit" class="signInButton" onclick="func();">SIGN IN</button>
+	</div>
+
+	<script>
+		var utext;
+		var ptext;
+		function func(){
+			utext=document.getElementById('uname').value;
+			ptext=document.getElementById('pwd').value;
+			if(utext=='roshan172' && ptext=='blue_whale')
+			{
+				alert("Successfully Logged In.");
+			}
+			else
+			{
+				alert("Wrong Credentials.")
+			}
+		}
+
+	</script>
+</body>
+</html>
