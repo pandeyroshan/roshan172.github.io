@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HOME</title>
+	<link rel="stylesheet" type="text/css" href="temp.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<form method="post" action="https://webkiosk.juet.ac.in/CommonFiles/UserAction.jsp">
+		<div class="container">
+			<img src="logo.png" class="logo">
+
+			<select size="1" name="InstCode" style="display:none;">
+      		  <option value="JUET" selected="">JUET</option>
+    		</select>
+
+    		<select size="1" name="UserType" id="UserType" style="display:none;">
+    		  <option value="S">Student</option>
+    		</select>
+
+			<input type="text" name="MemberCode" class="entry" id="MemberCode" placeholder="Enrollment No">
+			<input type="data" name="DATE1" class="entry" id="DATE1" placeholder="Date of Birth">
+			<input type="password" name="Password" class="entry" id="Password" placeholder="Password">
+
+			<button type="submit" class="signInButton">SIGN IN</button>
+		</div>
+	</form>
+</body>
+</html>
