@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>JUET WEBKIOSK</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="webkiosk.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50">
+				<form class="login100-form validate-form" method="post" action="https://webkiosk.juet.ac.in/CommonFiles/UserAction.jsp">
+					<span class="login100-form-title p-b-33">
+						WEBKIOSK LITE
+					</span>
+
+					<select size="1" name="InstCode" style="display:none;">
+      		  			<option value="JUET" selected=""></option>
+    				</select>
+
+		    		<select size="1" name="UserType" id="UserType" style="display:none;">
+		    			<option value="E"></option>
+		    		</select>
+
+					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: 171B102">
+						<input name="MemberCode" class="input100" type="text" id="MemberCode" placeholder="Employee Id">
+						<span class="focus-input100-1"></span>
+						<span class="focus-input100-2"></span>
+					</div>
+					<br>
+					<div class="wrap-input100 validate-input" data-validate="Password is required">
+						<input name="Password" class="input100" type="password" id="Password" placeholder="Password">
+						<span class="focus-input100-1"></span>
+						<span class="focus-input100-2"></span>
+					</div>
+
+					<div class="container-login100-form-btn m-t-20">
+						<button class="login100-form-btn" type="submit">
+							Sign in
+						</button>
+					</div>
+					<input type='hidden' name='redirect_to' value='https://webkiosk.juet.ac.in/StudentFiles/Exam/StudCGPAReport.jsp' />
+					<br>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
