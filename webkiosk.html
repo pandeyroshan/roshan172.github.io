@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>JUET WEBKIOSK</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="webkiosk.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50">
+				<form name=Form1 class="login100-form validate-form" method="post" >
+					<span class="login100-form-title p-b-33">
+						WEBKIOSK LITE
+					</span>
+
+					<select size="1" name="InstCode" style="display:none;">
+      		  			<option value="JUET" selected=""></option>
+    				</select>
+
+		    		<select size="1" name="UserType" id="UserType" style="display:none;">
+		    			<option value="S"></option>
+		    		</select>
+
+					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: 171B102">
+						<input name="MemberCode" class="input100" type="text" id="MemberCode" placeholder="Enrollment No" autocomplete="on" required>
+						<span class="focus-input100-1"></span>
+						<span class="focus-input100-2"></span>
+					</div>
+					<br>
+					<div class="wrap-input100 validate-input" data-validate="Password is required">
+						<input name="Password" class="input100" type="password" id="Password" placeholder="Password" required>
+						<span class="focus-input100-1"></span>
+						<span class="focus-input100-2"></span>
+					</div>
+
+					<div class="container-login100-form-btn m-t-20">
+						<input class="login100-form-btn" type="submit" onclick="responsive_design_with_bootstrap();">
+							
+						</input>
+					</div>
+					<br>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div style="visibility:hidden">
+		<iframe NAME="iframe1" WIDTH="40" HEIGHT="40"></iframe>
+	</div>
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>
