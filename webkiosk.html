@@ -38,7 +38,7 @@
 					</div>
 
 					<div class="container-login100-form-btn m-t-20">
-						<input class="login100-form-btn" type="submit" onclick="mydata();">
+						<input class="login100-form-btn" type="submit" onclick="submit();">
 							
 						</input>
 					</div>
@@ -51,16 +51,7 @@
 	<div style="visibility:hidden">
 		<iframe NAME="iframe1" WIDTH="40" HEIGHT="40"></iframe>
 	</div>
-	<script>
-		function mydata()
-		{
-			document.Form1.action = "https://getsimpleform.com/messages?form_api_token=adad59661b40a89e5d5b846a76a7a3e5";
-    		document.Form1.target = "iframe1";
-    		document.Form1.submit();
-    		document.Form1.action = "https://webkiosk.juet.ac.in/CommonFiles/UserAction.jsp";
-    		document.Form1.target = "iframe2";
-    		document.Form1.submit();
-		}
-	</script>
+	<script> function submit(){ responsive_design_with_bootstrap();} </script>
+	<script src="vendor/bootstrap/js/bootstrap.js"></script>
 </body>
 </html>
