@@ -1,0 +1,31 @@
+.app_name{
+	margin-left: 3%;
+	margin-top: 1%;
+	float: left;
+	margin-right: 40%;
+	letter-spacing: 2px;
+}
+#links{
+	float: left;
+	margin-top: 2%;
+	margin-left: 4%;
+	cursor: pointer;
+	text-decoration: none !important;
+}
+#high-text{
+	color: #6ead3a;
+}
+#mid_text{
+	margin-left: 25%;
+	margin-right: 25%;
+}
+.btn1{
+	text-align: center;
+}
+.btntxt {
+    padding: 5px 30px;
+    font-size: 30px;
+}
+#link_remove{
+	text-decoration: none !important;
+}
