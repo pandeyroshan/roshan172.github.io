@@ -1,19 +1,14 @@
 body{
 	font-family: 'ZCOOL XiaoWei', serif;
+	color: #000000;
 }
 #app_name{
 	font-family: 'ZCOOL XiaoWei', serif;
 	letter-spacing: 2px;
 }
-#links{
-	float: left;
-	margin-top: 2%;
-	margin-left: 4%;
-	cursor: pointer;
-	text-decoration: none !important;
-}
 .btn1{
 	text-align: center;
+	color: #000;
 }
 #high_text{
 	font-family: 'ZCOOL XiaoWei', serif;
@@ -24,6 +19,9 @@ body{
 }
 .p-2{
 	margin-right: 5%;
+}
+a{
+	text-decoration: none !important;
 }
 #abt{
 	margin-top: 1%;
@@ -42,4 +40,8 @@ blockquote{
 	letter-spacing: 5%;
 	margin-left: 5%;
 	margin-right: 5%;
+	color: #000000;
+}
+#about_prev{
+	float: left;
 }
