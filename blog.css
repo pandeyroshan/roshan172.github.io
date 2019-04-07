@@ -2,6 +2,9 @@ body{
 	font-family: 'ZCOOL XiaoWei', serif;
 	color: #000000;
 }
+html {
+  scroll-behavior: smooth;
+}
 #app_name{
 	font-family: 'ZCOOL XiaoWei', serif;
 	letter-spacing: 2px;
