@@ -6,15 +6,15 @@
   <link rel="stylesheet" type="text/css" href="blog.css">
   <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
 </head>
-<body>
+<body scroll="no" style="overflow: hidden">
 
-<div class="container-fluid">
+<div class="container-fluid" id="homepage">
     <div class="d-flex">
         <div class="mr-auto p-2" id="app_name"><h1>BIT-BLOG</h1></div>
-        <div class="p-2" id="abt">ABOUT</div>
-        <div class="p-2" id="prcss">PROCESS</div>
-        <div class="p-2" id="rgstr">REGISTER</div>
-        <div class="p-2" id="cntct">CONTACT US</div>
+        <div class="p-2" id="abt"><a href="#about_section">ABOUT</a></div>
+        <div class="p-2" id="prcss"><a href="#process_section">PROCESS</div>
+        <div class="p-2" id="rgstr"><a href="#register_section">REGISTER</div>
+        <div class="p-2" id="cntct"><a href="#contact_section">CONTACT US</div>
     </div>
 </div>
 
@@ -25,11 +25,28 @@
 </blockquote>
 <br><br><br><br><br>
 <div class="btn1">
-  <button type="button" class="btn btn-outline-primary"><h5 class='btntxt'>GET STARTED</h5></button>
+  <a href="#about_section"><button type="button" class="btn btn-outline-primary"><h5 class='btntxt'>GET STARTED</h5></button></a>
 </div>
-
 <br><br><br><br><br><br>
 
+
+
+<section id="about_section">
+  
+  <blockquote class="blockquote text-center">
+    <h1 class="mb-0" id="high-text">ABOUT BIT-BLOG</h1>
+  </blockquote>
+  <br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br>
+  <br><br><br><br><br><br>
+  <div class="text-left ml-5" id="about_prev">
+    <a href="#homepage"><button type="button" class="btn btn-outline-primary">HOMEPAGE</button></a>
+  </div>
+  <div class="text-right mr-5" id="about_next">
+    <a href="#about_section"><button type="button" class="btn btn-outline-primary">PROCESS</button></a>
+  </div>
+  <br><br>
+</section>
 
 </body>
 </html>
