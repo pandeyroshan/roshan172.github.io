@@ -1,0 +1,59 @@
+body{
+	font-family: 'ZCOOL XiaoWei', serif;
+	background-color: #2b2b3a;
+}
+html {
+  scroll-behavior: smooth;
+}
+blockquote{
+	color: #f4f5f6 !important;
+}
+#app_name{
+	font-family: 'ZCOOL XiaoWei', serif;
+	letter-spacing: 2px;
+	color: #eafc40 !important;
+}
+#homepage{
+	background-color: #2b2b3a;
+}
+.btn1{
+	text-align: center;
+	color: #000;
+}
+#high_text{
+	font-family: 'ZCOOL XiaoWei', serif;
+	color: #f4f5f6 !important;
+}
+.btntxt {
+    padding: 5px 30px;
+    font-size: 30px;
+}
+.p-2{
+	margin-right: 5%;
+}
+a{
+	text-decoration: none !important;
+}
+#abt{
+	margin-top: 1%;
+	color: #eafc40 !important;
+}
+#prcss{
+	margin-top: 1%;
+}
+#rgstr{
+	margin-top: 1%;
+}
+#cntct{
+	margin-top: 1%;	
+}
+blockquote{
+	font-family: 'ZCOOL XiaoWei', serif;
+	letter-spacing: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+	color: #000000;
+}
+#about_prev{
+	float: left;
+}
