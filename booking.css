@@ -1,0 +1,60 @@
+body{
+	background-color: #222022;
+	font-family: 'ZCOOL XiaoWei', serif;
+	text-align: center;
+}
+blockquote{
+	text-align: center;
+	color: #ff5733;
+}
+.input{
+	margin-bottom: 5%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	width: 60%;
+	border-radius: 20px;
+	padding-left: 2%;
+	outline: none;
+	border-style: solid;
+	border-color: #ffffff; 
+	font-family: 'ZCOOL XiaoWei', serif;
+	letter-spacing: 2px;
+	font-size: 15px;
+}
+#personal{
+	color: #ffffff;
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+.option{
+	margin-bottom: 5%;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	width: 63%;
+	border-radius: 30px;
+	padding-left: 2%;
+	outline: none;
+	border-style: solid;
+	border-color: #ffffff; 
+	font-family: 'ZCOOL XiaoWei', serif;
+	letter-spacing: 2px;
+	font-size: 15px;
+}
+.values{
+	font-family: 'ZCOOL XiaoWei', serif;
+	letter-spacing: 2px;
+	font-size: 15px;
+}
+.button{
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background-color: #ff5733;
+	color: #ffffff;
+	border-style: solid;
+	border-color: #ff5733;
+	font-family: 'ZCOOL XiaoWei', serif;
+	font-size: 30px;
+}

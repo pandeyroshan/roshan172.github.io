@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BOOKING WINDOW</title>
+	<link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="booking.css">
+</head>
+<body>
+	<blockquote class="blockquote text-center">
+  		<h1 class="mb-0" id="high-text">HILTON BOOKING</h1>
+	</blockquote>
+	<br><br>
+	<form name="Form1">
+		<blockquote class="blockquote text-center" id="personal">
+    		<h2 class="mb-0" id="high-text">Personal Details</h2>
+  		</blockquote>
+		<input type="text" name="name" placeholder="Full Name" id="name" class="input" required><br>
+		<input type="email" name="gmail" placeholder="Gmail Address" id="gmail" class="input" required><br>
+		<input type="text" name="phone" placeholder="Phone Number" id="phone" class="input" required><br><br>
+		<blockquote class="blockquote text-center" id="personal">
+    		<h2 class="mb-0" id="high-text">Booking Details</h2>
+  		</blockquote>
+  		<br><br>
+  		<input type="date" name="arriveDate" placeholder="Arrival Date" id="name" class="input" required><br>
+  		<input type="date" name="departDate" placeholder="Departure Date" id="name" class="input" required><br>
+		<select class="option" required>
+			  <option value="volvo" class="values">Studio</option>
+			  <option value="saab" class="values">Executive Suite</option>
+			  <option value="opel" class="values">President Suite</option>
+			  <option value="audi" class="values">Murphy Room</option>
+		</select>
+  		<input type="text" name="departDate" placeholder="Adults" id="name" class="input" required><br>
+  		<input type="text" name="departDate" placeholder="Childrens" id="name" class="input" required><br><br><br>
+  		<input type="submit" name="BOOK" class="button" onclick="form.submit(); alert('SUCCESS!!!'); window.close()"><br><br><br>
+	</form>
+</body>
+</html>
