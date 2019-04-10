@@ -6,6 +6,12 @@
   <link rel="stylesheet" type="text/css" href="hotel.css">
   <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
 </head>
+<script>
+  function openWindow() 
+  {
+      window.open("booking.html", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=50,left=450,width=500,height=600");
+  }
+</script>
 <body link="#000000">
 <div id="starting"></div>
 <nav class="fixed-top bg-white">
@@ -13,9 +19,9 @@
     <div class="d-flex">
         <div class="mr-auto p-2" id="app_name"><h1 class="make-black">Hilton Hotels</h1></div>
         <div class="p-2" id="abt"><a href="#about_section"><h5>ABOUT</h5></a></div>
-        <div class="p-2" id="prcss"><a href="#process_section"><h5>NEW & OFFERS</h5></div>
-        <div class="p-2" id="rgstr"><a href="#register_section"><h5>REVIEWS</h5></div>
-        <div class="p-2" id="cntct"><a href="#contact_section"><h5>CONTACT US</h5></div>
+        <div class="p-2" id="prcss"><a href="#process_section"><h5>NEWS & OFFERS</h5></a></div>
+        <div class="p-2" id="rgstr"><a href="#register_section"><h5>REVIEWS</h5></a></div>
+        <div class="p-2" id="cntct"><a href="#contact_section"><h5>CONTACT US</h5></a></div>
     </div>
 </div>
 </nav>
@@ -27,7 +33,7 @@
 </blockquote>
 <br><br><br><br><br><br><br>
 <div class="btn1">
-  <a href="#about_section"><button type="button" class="btn btn-outline-primary"><h5 class='btntxt'>KNOW MORE</h5></button></a>
+  <button type="button" class="btn btn-outline-primary" onclick="openWindow()"><h5 class='btntxt'>BOOK NOW</h5></button>
 </div>
 <br><br><br><br><br><br>
 
@@ -38,12 +44,13 @@
   <blockquote class="blockquote text-center">
     <h1 class="mb-0" id="high-text">ABOUT US</h1>
   </blockquote>
-  <br><br><br><br><br><br><br>
-  <br><br><br><br><br><br><br>
-  <br><br><br><br>
-  <br><br>
-  <br><br>
-  <br><br>
+  <img src="about.png" class="about_img">
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+  <p>
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  </p>
 </section>
 
 
