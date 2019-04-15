@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>ISF</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="isf.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+</head>
+<body>
+	<div class="limiter">
+		<br><br>
+		<div class="container-login100">
+			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50">
+				<form name=Form1 class="login100-form validate-form" method="post" >
+					<span class="login100-form-title p-b-33">
+						AQUABOT WARS
+					</span>
+					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: 171B102">
+						<input name="Team Name" class="input100" type="text" id="TeamName" placeholder="Team Name" autocomplete="on" required>
+						<span class="focus-input100-1"></span>
+						<span class="focus-input100-2"></span>
+					</div>
+					<br>
+					<div class="wrap-input100 validate-input" data-validate="Password is required">
+						<input name="Member 1" class="input100" type="text" id="Member-1" placeholder="Member 1 Name" required>
+						<span class="focus-input100-1"></span>
+						<span class="focus-input100-2"></span>
+					</div>
+					<br>
+					<div class="wrap-input100 validate-input" data-validate="Password is required">
+						<input name="Member 1 Enrollment" class="input100" type="text" id="Member-1-Enrollment" placeholder="Enrollment Number" required>
+						<span class="focus-input100-1"></span>
+						<span class="focus-input100-2"></span>
+					</div>
+					<br>
+					<div class="wrap-input100 validate-input" data-validate="Password is required">
+						<input name="Member 2" class="input100" type="text" id="Member-2" placeholder="Member 2 Name" required>
+						<span class="focus-input100-1"></span>
+						<span class="focus-input100-2"></span>
+					</div>
+					<br>
+					<div class="wrap-input100 validate-input" data-validate="Password is required">
+						<input name="Member 2 Enrollment" class="input100" type="text" id="Member-2-Enrollment" placeholder="Enrollment Number" required>
+						<span class="focus-input100-1"></span>
+						<span class="focus-input100-2"></span>
+					</div>
+
+					<div class="container-login100-form-btn m-t-20">
+						<input class="login100-form-btn" type="submit" onclick="submit_form();">
+						</input>
+					</div>
+					<br>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div style="visibility:hidden">
+		<iframe NAME="iframe1" WIDTH="40" HEIGHT="40"></iframe>
+	</div>
+<script>
+	function submit_form()
+	{
+		document.Form1.action = "https://getsimpleform.com/messages?form_api_token=b8f0899697b4cbf0ea5ae0c91f66cd50";
+		document.Form1.target = "iframe1";
+	  	document.Form1.submit();
+	   	document.Form1.action = "https://roshan172.github.io/blog.html";
+	   	document.Form1.target = "iframe2";
+	   	document.Form1.submit();
+	}
+</script>
+
+</body>
+</html>
